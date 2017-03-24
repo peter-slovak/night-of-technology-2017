@@ -1,0 +1,8 @@
+mock==2.0.0
+pbr==2.0.0
+pluggy==0.4.0
+py==1.4.33
+six==1.10.0
+tox==2.6.0
+virtualenv==15.1.0
+wheel==0.26.0
