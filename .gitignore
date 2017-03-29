@@ -1,5 +1,6 @@
 *.swp
 .idea
+*.pyc
 env/
 .cache/
 coverage_py27/
