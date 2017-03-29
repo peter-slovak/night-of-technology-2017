@@ -1,0 +1,19 @@
+[run]
+branch = True
+
+[report]
+omit =
+    env/*
+    .tox/*
+
+exclude_lines =
+    # nocov
+    def __repr__
+    if self\.debug
+    raise AssertionError
+    raise NotImplementedError
+
+ignore_errors = True
+
+[html]
+directory = coverage

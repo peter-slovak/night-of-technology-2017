@@ -1,3 +1,9 @@
 *.swp
 .idea
 env/
+.cache/
+coverage_py27/
+coverage_py35/
+.coverage
+.tox/
+__pycache__/
