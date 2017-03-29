@@ -3,8 +3,7 @@
 *.pyc
 env/
 .cache/
-coverage_py27/
-coverage_py35/
+coverage_py*/
 .coverage
 .tox/
 __pycache__/
