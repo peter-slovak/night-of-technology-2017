@@ -1,11 +1,7 @@
-import six
 from . import TestBase
 import materials    # noqa
 
-if six.PY2:
-    from mock import Mock, patch    # noqa
-else:
-    from unittest.mock import Mock, patch   # noqa
+from mock import Mock, patch    # noqa
 
 
 class TestMaterials(TestBase):
@@ -13,7 +9,7 @@ class TestMaterials(TestBase):
         self.skipTest(reason='Not tested yet')
 
     def test_reuse_titanium(self):
-        pass
+        self.skipTest(reason='Not tested yet')
 
     def test_harvest_rubber(self):
         self.skipTest(reason='Not tested yet')

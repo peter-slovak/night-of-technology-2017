@@ -36,7 +36,7 @@ def make_wheels(count):
 
     if not titanium[0] and REUSE_MATERIALS_IF_NOT_AVAILABLE:
         print(log_prefix + 'could not mine titanium, attempting reuse: %s' % titanium[1])
-        titanium = materials.reuse_titanium(quantity=count, quality='normal')
+        titanium = materials.reuse_titanium(quantity=count, quality='low')
 
     if not titanium[0]:
         print(log_prefix + 'titanium not available: %s' % titanium[1])
